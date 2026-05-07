@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { Users, DollarSign, CreditCard, Activity } from 'lucide-vue-next'
-import Card from '@/components/ui/Card.vue'
 
 // Statistics Data
 const stats = [

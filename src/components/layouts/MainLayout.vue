@@ -4,7 +4,6 @@ import { useAuthStore } from '@/stores/auth'
 import { useRouter } from 'vue-router'
 import { useDark, useToggle } from '@vueuse/core'
 import { Moon, Sun, Menu, X } from 'lucide-vue-next'
-import Button from '@/components/ui/Button.vue'
 
 const authStore = useAuthStore()
 const router = useRouter()

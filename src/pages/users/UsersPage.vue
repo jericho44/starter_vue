@@ -1,9 +1,4 @@
 <script setup lang="ts">
-import { useQuery } from '@tanstack/vue-query'
-// import api from '@/services/api'
-import Card from '@/components/ui/Card.vue'
-
-// Mock fetching data to demonstrate TanStack Query without a real backend
 import { ref } from 'vue'
 import { ArrowUpDown, MoreHorizontal, Plus, Search } from 'lucide-vue-next'
 import Button from '@/components/ui/Button.vue'
